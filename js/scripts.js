@@ -42,40 +42,41 @@ $(() => {
 	});
 
 
+	$('select').niceSelect();
 
-  // Моб. меню
-  $('header .mob_menu_btn').click((e) => {
-    e.preventDefault()
+	// Моб. меню
+	$('header .mob_menu_btn').click((e) => {
+		e.preventDefault()
 
-    $('header .mob_menu_btn').addClass('active')
-    $('body').addClass('menu_open')
-    $('header .menu').addClass('show')
-    $('.overlay').fadeIn(300)
-  })
+		$('header .mob_menu_btn').addClass('active')
+		$('body').addClass('menu_open')
+		$('header .menu').addClass('show')
+		$('.overlay').fadeIn(300)
+	})
 
-  $('header .close_btn, header .menu .item a, .overlay').click((e) => {
-    e.preventDefault()
+	$('header .close_btn, header .menu .item a, .overlay').click((e) => {
+		e.preventDefault()
 
-    $('header .mob_menu_btn').removeClass('active')
-    $('body').removeClass('menu_open')
-    $('header .menu').removeClass('show')
-    $('.overlay').fadeOut(300)
-  })
-
-
-
-  $('body').on('click', '.modal_link', function (e) {
-    e.preventDefault()
-
-    Fancybox.close(true)
-    Fancybox.show([{
-      src: $(this).data('content'),
-      type: 'inline',
-    }]);
-  })
+		$('header .mob_menu_btn').removeClass('active')
+		$('body').removeClass('menu_open')
+		$('header .menu').removeClass('show')
+		$('.overlay').fadeOut(300)
+	})
 
 
- 
+
+	$('body').on('click', '.modal_link', function (e) {
+		e.preventDefault()
+
+		Fancybox.close(true)
+		Fancybox.show([{
+			src: $(this).data('content'),
+			type: 'inline',
+		}]);
+	})
+
+
+
 
 
 
