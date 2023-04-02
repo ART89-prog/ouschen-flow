@@ -1,0 +1,131 @@
+@media print, (max-width: 1187px) {
+
+
+    header .mob_menu_btn {
+        display: flex;
+    }
+    .header_bottom .btn {
+        display: none;
+    }
+    header .menu {
+        position: fixed;
+        z-index: 107;
+        top: 0;
+        left: 0;
+        display: flex;
+        overflow: auto;
+        width: 100%;
+        height: calc(100% - 110px);
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 224px 20px 50px;
+        transition: transform .3s linear;
+        transform: translateX(-100%);
+        background: #fff;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;        
+    }
+    header .menu.show {
+        transform: translateX(0);
+    }
+    .menu_open header .mob_menu_btn{
+        display: none;
+    }
+    .menu_open header .close_btn {
+        display: flex;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    header .menu .item {
+        width: 100%;
+    }
+    header .menu .item + .item {
+        margin-left: 0;
+    }
+    .mob_menu_btn.active span {
+        background: transparent;
+    }
+    .mob_menu_btn.active span:before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+    .mob_menu_btn.active span:after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+
+    header .menu .item > a {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #2E2E2E;
+        padding: 14px 0;   
+        margin-right: 0;
+    }
+    header .menu .item {
+        margin-right: 0;
+    }
+    header .menu .item a {
+        display: block;
+        text-align: center;
+    }
+    .header_bottom .cont {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .main_slider-title {
+        font-size: 68px;
+    }
+    .tabs button {
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    .tabs {
+        margin-bottom: 30px;
+    }
+    .block {
+        padding: 100px 0;
+    }
+    .about_img {
+        width: 410px;
+        height: 542px;
+    }
+    .about_info {
+        width: calc(100% - 440px);
+    }
+    .contacts .map_wrap {
+        width: 400px;
+        height: 350px;
+    }
+    .contacts_info {
+        width: calc(100% - 425px);
+    }
+    .contacts_item-phone {
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .socials {
+        margin-top: 25px;
+    }
+    .socials_text {
+        margin-bottom: 15px;
+    }
+    footer .menu {
+        max-width: 520px;
+    }
+
+
+
+
+
+
+
+
+}

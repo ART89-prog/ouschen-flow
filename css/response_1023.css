@@ -1,0 +1,227 @@
+@media print, (max-width: 1023px) {
+ 
+    :root {
+        --font_size: 20px;
+        --font_size_title: 26px;
+    }
+    .cont {
+        padding: 0 40px;
+    }
+    .header_top-left {
+        display: none;
+    }
+    .header_top-right {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header_top-time {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .header_top-phone {
+        margin-left: 0;
+        font-size: 26px;
+        line-height: 32px;
+        font-family: var(--font_family2);
+    }
+    .header_top-phone + .header_top-phone {
+        margin-left: 28px;
+    }
+    .header_top .cont {
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+    .main_slider .slide .cont {
+        min-height: 510px;
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+    .main_slider-title {
+        font-size: 52px;
+        margin-bottom: 99px;
+    }
+    .slider .slick-arrow {
+        transform: translateY(-20px);
+    }
+    .title {
+        margin-bottom: 40px;
+    }
+    .about_wrap {
+        flex-direction: column-reverse;
+    }
+    .about_img {
+        display: none;
+    }
+    .about_img-mob {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .about_img-mob img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .about_info {
+        width: 100%;
+    }
+    .about_info-text {
+        margin-top: -40px;
+        margin-bottom: 35px;
+    }
+    .about_info-subtitle {
+        text-align: center;
+    }
+    .service_title {
+        margin-bottom: 18px;
+    }
+    .service_desc {
+        line-height: 24px;
+        max-width: 480px;
+        margin: 0 auto 40px;
+    }
+    .tabs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tabs button {
+        font-size: 13px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .tabs button + button {
+        margin-right: 21px;
+    }
+    .service_items {
+        margin-bottom: -25px;
+    }
+    .service_items > * {
+        width: calc(100%/2 - 20px);
+        margin-bottom: 25px;
+        padding: 39px 30px 16px 20px;
+    }
+    .contacts_adress {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 auto 12px;
+        max-width: 398px;
+        text-align: center;
+    }
+    .contacts_email {
+        text-align: center;
+        margin-bottom: 44px;
+    }
+    .contacts_wrap {
+        flex-direction: column;
+    }
+    .contacts_info {
+        width: 100%;
+    }
+    .contacts_item-phone {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .socials {
+        margin-top: 74px;
+    }
+    .socials_text {
+        text-align: center;
+        font-size: 18px;
+    }
+    .socials_links {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .socials_links a {
+        margin-bottom: 0;
+    }
+    .socials_links a:nth-child(1) {
+        margin-right: 40px;
+    }
+    .socials_links a:nth-child(2) {
+        margin-right: 40px;
+    }
+    .contacts_bg {
+        position: absolute;
+        right: 50%;
+        bottom: -30%;
+        transform: translateX(50%);
+        z-index: -1;
+    }
+    .contacts_info {
+        margin-bottom: 148px;
+    }
+    .contacts .map_wrap {
+        width: 100%;
+        height: 564px;
+    }
+    .geography_title {
+        margin-bottom: 16px;
+    }
+    footer {
+        padding-top: 35px;
+        padding-bottom: 38px;
+    }
+    footer .menu {
+        width: 100%;
+        max-width: inherit;
+        order: -1;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+    footer .cont {
+        flex-wrap: wrap;
+    }
+    .footer_copy {
+        margin-right: 28px;
+        margin-left: auto;
+    }
+    .footer_politic {
+        margin-right: auto;
+    }
+    .licenses_desc {
+        max-width: 528px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .licenses_desc a {
+        font-size: 18px;
+        margin-top: 18px;
+    }
+    .contacts_title {
+        margin-bottom: 26px;
+    }
+    .contacts_items > * {
+        padding: 25px 34px 31px;
+    }
+    .socials_text {
+        margin-bottom: 30px;
+    }
+    .modal {
+        padding: 89px 60px;
+    }
+    .gallery-grid-mob .gallery-row {
+        width: 550px;
+    }
+
+    .licenses .slick-slide {
+        margin: 0 50px;
+    } 
+    .licenses .slick-list {
+        margin: 0 -50px;
+    }
+
+
+
+    
+
+    
+}
