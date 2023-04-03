@@ -5,7 +5,34 @@
         --font_size_title: 20px;
     }
  
- 
+    .benefits_items {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .benefits_items > * {
+        width: calc(100%/2 - 30px);
+    }
+    header:after {
+        display: none;
+    }
+    .callback::before {
+        display: none;
+    }
+    .form_bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form_politic {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .request form:before {
+        width: 372px;
+        height: 277px;
+        right: -20px;
+        bottom: -20px;
+    }
+    
 
 
 }

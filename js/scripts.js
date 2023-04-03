@@ -24,15 +24,15 @@ $(() => {
 			},
 			480: {
 				spaceBetween: 20,
-				slidesPerView: 3
+				slidesPerView: 2
 			},
 			768: {
 				spaceBetween: 20,
-				slidesPerView: 4
+				slidesPerView: 3
 			},
 			1024: {
 				spaceBetween: 20,
-				slidesPerView: 5
+				slidesPerView: 4
 			},
 			1370: {
 				spaceBetween: 20,

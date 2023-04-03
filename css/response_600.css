@@ -1,0 +1,20 @@
+@media print, (max-width: 600px) {
+
+    .personal_items > * {
+        width: 100%;
+        margin-left: 0;
+    }
+    .personal_items {
+        margin-left: 0;
+    }
+
+    .steps_items {
+        margin-left: 0;
+    }
+    .steps_items > * {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+}
