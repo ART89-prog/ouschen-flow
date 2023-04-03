@@ -1173,7 +1173,7 @@ input:-ms-input-placeholder {
     z-index: 2;
     position: relative;
     width: calc(50% - 310px);
-    padding: 70px 0 74px;
+    padding: 70px 0 69px;
 }
 .contacts .header_logo img {
     width: 218px;
