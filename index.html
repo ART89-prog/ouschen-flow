@@ -57,7 +57,7 @@
 						</a>
 						<div class="header_callback">
 							<a href="tel:78002349577">+7 (800) 234-95-77</a>
-							<button class="modal_link" data-content="#modal_callback2">
+							<button class="modal_link" data-content="#modal_callback">
 								<span>заказать звонок</span>
 							</button>
 						</div>
@@ -93,7 +93,7 @@
 							</div>
 							<div class="header_callback header_callback-mob">
 								<a href="tel:78002349577">+7 (800) 234-95-77</a>
-								<button class="modal_link" data-content="#modal_callback2">
+								<button class="modal_link" data-content="#modal_callback">
 									<span>заказать звонок</span>
 								</button>
 							</div>
@@ -130,13 +130,20 @@
 								</div>
 							</div>
 						</div>
-						<a href="#" class="header_info-link btn">
+						<a href="#" class="header_info-link btn modal_link" data-content="#modal_callback">
 							<span>Получить предложение</span>						
 						</a>
 					</div>
 				</div>	
 			</header>
 
+
+
+			<section class="quiz">
+				<div class="cont">
+					<div class="quiz_title title">Пройдите квиз и получите предложение всего <span>за 30 секунд!</span></div>
+				</div>
+			</section>
 
 
 			<section class="personal block" id="personal">
@@ -218,7 +225,7 @@
 			<section class="callback">
 				<div class="cont">
 					<div class="callback_title title title-white">остались вопросы? Мы вам перезвоним</div>
-					<a href="#" class="modal_link btn">
+					<a href="#" class="modal_link btn" data-content="#modal_callback">
 						<span>Оставить заявку</span>						
 					</a>
 				</div>
@@ -446,7 +453,7 @@
 							</div>
 						</div>
 						<div class="form_bottom">
-							<button type="submit">оставить заявку</button>	
+							<button type="submit" class="modal_link" data-content="#modal_callback2">оставить заявку</button>	
 							<div class="form_politic">Нажимая на кнопку «Отправить заявку» я подтверждаю, что ознакомлен<br> и согласен с условиями <a href="#">политики конфиденциальности</a></div>
 						</div>						
 					</form>
@@ -466,7 +473,7 @@
 							<div class="contacts_item">
 								<div class="contacts_item-label">Телефон</div>
 								<a href="tel:8 (800) 234-95-77" class="contacts_item-phone">8 (800) 234-95-77</a>
-								<button>заказать звонок</button>
+								<button class="modal_link" data-content="#modal_callback">заказать звонок</button>
 							</div>
 							<div class="contacts_item">
 								<div class="contacts_item-label">Адрес</div>
@@ -538,7 +545,7 @@
 				</div>
 			</div>
 			<div class="form_bottom">
-				<button type="submit">оставить заявку</button>	
+				<button type="submit" class="modal_link" data-content="#modal_callback2">оставить заявку</button>	
 				<div class="form_politic">Нажимая на кнопку «Отправить заявку» я подтверждаю, что ознакомлен<br> и согласен с условиями <a href="#">политики конфиденциальности</a></div>
 			</div>				
 		</form>
@@ -547,7 +554,7 @@
 
 	<div class="modal modal_thanks" id="modal_callback2">
 		<div class="modal_thanks-title title title-white">спасибо за заявку!</div>
-		<div class="modal_thanks-text">Мы перезвоним в течение 10 минут</div>
+		<div class="modal_thanks-text">Мы перезвоним в течение 10 минут</div>
 		<a href="index.html">
 			<span>на главную страницу</span> 
 		</a>

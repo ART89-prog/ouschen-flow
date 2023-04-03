@@ -6,9 +6,6 @@
     .header_callback a {
         font-size: 17px;
     }
-    .title {
-        font-size: 25px;
-    }
     .header_info-title {
         font-size: 30px;
     }
@@ -24,6 +21,11 @@
     .advantages_item-title br {
         display: none;
     }
+    .modal_thanks a {
+        width: 100%;
+        text-align: center;
+    }
+
 
    
 }
