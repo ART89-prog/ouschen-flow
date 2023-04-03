@@ -1,7 +1,6 @@
 $(() => {
- 
-	const slider = document.querySelector('.slider');
-	const sl = new Swiper(slider, {
+
+	const slider = new Swiper('.slider', {
 		loop: true,
 		spaceBetween: 20,
 		lazy: {
@@ -11,7 +10,7 @@ $(() => {
 			loadPrevNext: true
 		},
 		speed: 5000,
-		slidesPerView: '9',
+		slidesPerView: '8',
 		autoplay: {
 			enabled: true,
 			delay: 1,
@@ -19,7 +18,7 @@ $(() => {
 		breakpoints: {
 			0: {
 				spaceBetween: 20,
-				slidesPerView: 2
+				slidesPerView: 1
 			},
 			480: {
 				spaceBetween: 20,
@@ -46,7 +45,7 @@ $(() => {
 	$('.steps_item').click((e) => {
 		e.preventDefault()
 	})
-	
+
 	$('.personal_item').click((e) => {
 		e.preventDefault()
 	})

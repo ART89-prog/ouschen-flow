@@ -175,6 +175,9 @@
     .contacts::before {
         display: none;
     }
+    .privilege::before {
+        display: none;
+    }
     .contacts_wrap {
         flex-direction: column;
     }
