@@ -42,14 +42,31 @@
     .header_callback a {
         font-size: 20px;
     }
+    .partners .slider {
+        padding: 30px 0;
+    }
     header {
-        /* height: 853px; */
         margin-bottom: 20px;
-        background-position: -990px top;
-        background: url(../images/header_bg_mob.png);
-        /* background: linear-gradient(360deg, #000000 43.95%, rgba(0, 0, 0, 0.51) 60.09%, rgba(0, 0, 0, 0) 70.29%, rgba(0, 0, 0, 0.3) 91.36%, rgba(0, 0, 0, 0.7) 100%); */
-        /* background-image: linear-gradient(360deg, #000000 43.95%, rgba(0, 0, 0, 0.51) 60.09%, rgba(0, 0, 0, 0) 70.29%, rgba(0, 0, 0, 0.3) 91.36%, rgba(0, 0, 0, 0.7) 100%), url(../images/header_bg.jpg); */
-        /* background: linear-gradient(360deg, #000000 43.95%, rgba(0, 0, 0, 0.51) 60.09%, rgba(0, 0, 0, 0) 70.29%, rgba(0, 0, 0, 0.3) 91.36%, rgba(0, 0, 0, 0.7) 100%), url(../images/header_bg.jpg); */
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(360deg, #000000 43.95%, rgba(0, 0, 0, 0.51) 60.09%, rgba(0, 0, 0, 0) 70.29%, rgba(0, 0, 0, 0.3) 91.36%, rgba(0, 0, 0, 0.7) 100%), url(../images/header_bg_mob.png);
+    }
+    .callback {
+        padding: 280px 0 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        background-image: linear-gradient(360deg, #000000 41.9%, rgba(0, 0, 0, 0.51) 56.12%, rgba(0, 0, 0, 0) 70.84%), url(../images/callback_bg_mob.png);
+        position: relative;
+    }
+    .privilege {
+        margin-bottom: 30px;
+        padding: 263px 0 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        background-image: linear-gradient(360deg, #000000 41.9%, rgba(0, 0, 0, 0.51) 60.37%, rgba(0, 0, 0, 0) 70.84%), url(../images/privilege_bg_mob.png);
+        position: relative;
     }
     .title {
         font-size: 30px;
@@ -162,7 +179,56 @@
     .nice-select {
         font-size: 14px;
     }
-    
+    .header_info {
+        margin-top: 285px;
+    }
+    .header_info-title {
+        margin-bottom: 20px;
+    }
+    .benefits_items > * {
+        align-items: center;
+    }
+    .benefits_item-title {
+        text-align: center;
+        font-size: 14px;
+    }
+    .contacts {
+        margin-top: 20px;
+    }
+    .steps_item-text {
+        font-size: 14px;
+    }
+    .steps_item-title {
+        margin-bottom: 10px;
+    }
+    .contacts_info {
+        padding: 23px 20px 30px;
+    }
+    .contacts .header_logo span {
+        display: block;
+        font-size: 14px;
+    }
+    .contacts .header_logo img {
+        width: 115px;
+        height: 48px;
+    }
+    .contacts_item-label {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .contacts_item-phone {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contacts_item span {
+        font-size: 17px;
+    }
+    .contacts_item {
+        margin-bottom: 20px;
+    }
+    footer a {
+        font-size: 14px;
+    }
 
 
 }

@@ -46,7 +46,11 @@ $(() => {
 	$('.steps_item').click((e) => {
 		e.preventDefault()
 	})
-
+	
+	$('.personal_item').click((e) => {
+		e.preventDefault()
+	})
+	
 	// Моб. меню
 	$('header .mob_menu_btn').click((e) => {
 		e.preventDefault()

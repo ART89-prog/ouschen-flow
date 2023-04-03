@@ -25,6 +25,15 @@
         width: 100%;
         text-align: center;
     }
+    .header_info-link {
+        width: 100%;
+    }
+    .privilege .btn {
+        width: 100%;
+    }
+    .contacts_item button {
+        width: 100%;
+    }
 
 
    
