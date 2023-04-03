@@ -165,7 +165,7 @@ input[type=number] {
     Global styles
 -------------------*/
 :root {
-    --text_color: #2E2E2E;
+    --text_color: #271850;
     --font_size: 18px;
     --font_size_title: 33px;
     --font_family: 'Inter', sans-serif;
@@ -421,7 +421,7 @@ header .menu {
 }
 
 header .menu .item>a {
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     font-weight: 800;
     font-size: 17px;
     line-height: 130%;
@@ -477,7 +477,7 @@ header .menu .item:last-child a {
     padding-left: 20px;
     border-left: 3px solid #00AFE4;
     margin-left: 14px;
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 400;
     font-size: 17px;
     line-height: 130%;
@@ -489,7 +489,7 @@ header .menu .item:last-child a {
 }
 .header_callback a {
     text-decoration: none;
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     font-weight: 800;
     font-size: 24px;
     line-height: 120%;
@@ -503,7 +503,7 @@ header .menu .item:last-child a {
     width: 206px;
     height: 52px;
     border: 3px solid #00AFE4; 
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     font-weight: 800;
     font-size: 17px;
     line-height: 130%;
@@ -515,7 +515,7 @@ header .menu .item:last-child a {
     background: #00AFE4;
 }
 .header_info-title {
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     font-weight: 800;
     font-size: 58px;
     line-height: 110%;
@@ -557,7 +557,7 @@ header .menu .item:last-child a {
     display: block;
 }
 .benefits_item-title {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 600;
     font-size: 17px;
     line-height: 130%;
@@ -568,7 +568,7 @@ header .menu .item:last-child a {
 .btn {
     background: #00AFE4;
     padding: 15px 25px;
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     font-weight: 800;
     font-size: 17px;
     line-height: 130%;
@@ -598,12 +598,12 @@ header .menu .item:last-child a {
     padding: 60px 0;
 }
 .title {
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     font-weight: 800;
     font-size: 50px;
     line-height: 110%;
     text-transform: uppercase;
-    color: #271850;
+    color: var(--text_color);
     margin-bottom: 40px;
 }
 .title span {
@@ -634,23 +634,23 @@ header .menu .item:last-child a {
     object-fit: cover;
 }
 .personal_item-title {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
-    color: #271850;
+    color: var(--text_color);
     margin-bottom: 12px;
 }
 .personal_item-text {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 400;
     font-size: 17px;
     line-height: 130%;
-    color: #271850;
+    color: var(--text_color);
     margin-bottom: 12px;
 }
 .personal_item-price {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 700;
     font-size: 24px;
     line-height: 130%;
@@ -663,9 +663,6 @@ header .menu .item:last-child a {
 .personal_item:hover .personal_item-btn {
     display: block;
 }
-.personal_item:hover .personal_item-btn {
-    display: block;
-}  
 .personal_item:hover .personal_item-img {
     height: 148px;
 }
@@ -707,7 +704,7 @@ header .menu .item:last-child a {
     left: 0;
 }
 .title-white {
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     font-weight: 800;
     font-size: 58px;
     line-height: 110%;
@@ -747,7 +744,7 @@ header .menu .item:last-child a {
 .privilege_list li {
     position: relative;
     padding-left: 39px;
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 17px;
     line-height: 130%;
@@ -807,7 +804,7 @@ header .menu .item:last-child a {
 .advantages_item-icon {
     width: 80px;
     height: 80px;
-    background: #271850;
+    background: var(--text_color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -816,11 +813,11 @@ header .menu .item:last-child a {
     flex-shrink: 0;  
 }
 .advantages_item-title {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 700;
     font-size: 30px;
     line-height: 120%;
-    color: #271850;
+    color: var(--text_color);
     margin-left: 30px;
 }
 
@@ -900,19 +897,19 @@ header .menu .item:last-child a {
     position: relative;  
 }
 .steps_item-title {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
-    color: #271850;   
+    color: var(--text_color);
     margin-bottom: 12px;
 }
 .steps_item-text {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 17px;
     line-height: 130%;
-    color: #271850;
+    color: var(--text_color);
 }
 .steps_item-btn {
     text-align: center;
@@ -927,7 +924,7 @@ header .menu .item:last-child a {
 .steps_item-number {
     position: absolute;
     top: -53px;
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     text-align: center;
     font-weight: 800;
     font-size: 50px;
@@ -937,7 +934,7 @@ header .menu .item:last-child a {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: #271850;
+    background: var(--text_color);
     z-index: 3;
 }
 .steps_item-bottom img {
@@ -969,7 +966,7 @@ header .menu .item:last-child a {
     z-index: -1;
 }
 .form_title {    
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
@@ -995,7 +992,7 @@ form .line .field {
 }
 form .line .field label {
     margin-bottom: 10px;
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 17px;
     line-height: 130%;
@@ -1006,7 +1003,7 @@ form .line .field input {
     height: 70px;
     background: rgba(39, 24, 80, .1);
     border: 2px solid rgba(39, 24, 80, .1);
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 17px;
     line-height: 130%;
@@ -1019,28 +1016,28 @@ form .line .field input:focus {
     border: 2px solid #fff;
 }
 input::-webkit-input-placeholder {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 17px;
     line-height: 130%;
     color: #81CFEA; 
 }
 input::-moz-placeholder {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 17px;
     line-height: 130%;
     color: #81CFEA;  
 }
 input:-moz-placeholder {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 17px;
     line-height: 130%;
     color: #81CFEA;
 }
 input:-ms-input-placeholder {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 17px;
     line-height: 130%;
@@ -1052,7 +1049,7 @@ input:-ms-input-placeholder {
     cursor: pointer;
     display: block;
     float: left;
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 17px;
     line-height: 70px;
@@ -1111,7 +1108,7 @@ input:-ms-input-placeholder {
     align-items: center;
 }
 .form_politic {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 14px;
     line-height: 130%;
@@ -1120,7 +1117,7 @@ input:-ms-input-placeholder {
     width: calc(100% - 224px);
 }
 .form_politic a {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 14px;
     line-height: 130%;
@@ -1132,8 +1129,8 @@ input:-ms-input-placeholder {
 }
 .form_bottom button {
     padding: 15px 25px;
-    background: #271850;   
-    font-family: 'Gilroy';
+    background: var(--text_color);
+    font-family: var(--font_family2);
     font-weight: 800;
     font-size: 17px;
     line-height: 130%;
@@ -1153,7 +1150,7 @@ input:-ms-input-placeholder {
     margin-top: 60px;
     z-index: 2;    
     position: relative;
-    background: #271850;
+    background: var(--text_color);
 }
 .contacts::before {
     position: absolute;
@@ -1172,7 +1169,7 @@ input:-ms-input-placeholder {
 .contacts_info {
     margin-left: calc(50% - 590px);
     clip-path: polygon(100% 0, 85% 100%, 0 100%, 0 0);
-    background: #271850;
+    background: var(--text_color);
     z-index: 2;
     position: relative;
     width: calc(50% - 310px);
@@ -1189,7 +1186,7 @@ input:-ms-input-placeholder {
     opacity: 0.5;
 }
 .contacts_item-phone {
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     text-decoration: none;
     font-weight: 800;
     font-size: 58px;
@@ -1204,7 +1201,7 @@ input:-ms-input-placeholder {
     width: 206px;
     height: 52px;
     border: 3px solid #00AFE4;  
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     font-weight: 800;
     font-size: 17px;
     line-height: 52px;
@@ -1222,14 +1219,14 @@ input:-ms-input-placeholder {
     margin-bottom: 0px;
 }
 .contacts_item span {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
     color: #FFFFFF;   
 }
 .contacts_item-label {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -1289,11 +1286,11 @@ footer .cont {
 footer a {
     display: block;
     text-decoration: none;
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 17px;
     line-height: 130%;
-    color: #271850;
+    color: var(--text_color);
     transition: all .4s;
 }
 footer a:hover {
@@ -1317,7 +1314,7 @@ footer a:hover {
     padding: 65px 100px 75px;
 }
 .modal_title {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
@@ -1335,7 +1332,7 @@ footer a:hover {
     max-width: 900px;
 }
 .modal_thanks-title {
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     font-weight: 800;
     font-size: 58px;
     line-height: 110%;
@@ -1344,7 +1341,7 @@ footer a:hover {
     margin-bottom: 30px;
 }
 .modal_thanks-text {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
@@ -1352,9 +1349,9 @@ footer a:hover {
     margin-bottom: 40px;
 }
 .modal_thanks a {
-    background: #271850;
+    background: var(--text_color);
     padding: 15px 25px;
-    font-family: 'Gilroy';
+    font-family: var(--font_family2);
     font-weight: 800;
     font-size: 17px;
     line-height: 130%;

@@ -67,8 +67,12 @@
         line-height: 130%;
         text-transform: uppercase;
         color: #FFFFFF;
-        padding: 16px 0;   
+        padding: 16px 0 16px 36px;   
         margin-right: 0;
+    }
+    header .menu .item a:hover:after, 
+    header .menu .item a:focus:after {
+        width: 0;
     }
     header .menu .item {
         margin-right: 0;
@@ -101,7 +105,10 @@
     }
     .header_callback-mob a {
         margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 28px;
     }
+
 
     .header_info {
         margin-top: 120px;
@@ -112,8 +119,7 @@
     }
     header {
         padding: 14px 0 55px;
-        margin-bottom: 60px;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 24%), linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.51) 110.26%, rgba(0, 0, 0, 0) 58.72%), url(../images/header_bg.jpg);
+        margin-bottom: 40px;
     }
     .block {
         padding: 40px 0;
@@ -169,6 +175,11 @@
     .form_politic br {
         display: none;
     }
+    header:after {
+        display: none;
+    }
+
+    
 
 
     

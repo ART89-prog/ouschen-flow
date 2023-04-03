@@ -1,8 +1,7 @@
 $(() => {
-
+ 
 	const slider = document.querySelector('.slider');
 	const sl = new Swiper(slider, {
-		// slidesPerView: 'auto',
 		loop: true,
 		spaceBetween: 20,
 		lazy: {
@@ -43,6 +42,10 @@ $(() => {
 
 
 	$('select').niceSelect();
+
+	$('.steps_item').click((e) => {
+		e.preventDefault()
+	})
 
 	// Моб. меню
 	$('header .mob_menu_btn').click((e) => {
