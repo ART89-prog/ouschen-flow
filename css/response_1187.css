@@ -75,50 +75,15 @@
     header .menu .item a {
         display: block;
         text-align: center;
-    }
-    .header_bottom .cont {
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-    .main_slider-title {
-        font-size: 68px;
-    }
-    .tabs button {
-        font-size: 13px;
-        margin-right: 10px;
-    }
-    .tabs {
-        margin-bottom: 30px;
-    }
-    .block {
-        padding: 100px 0;
-    }
-    .about_img {
-        width: 410px;
-        height: 542px;
-    }
-    .about_info {
-        width: calc(100% - 440px);
-    }
-    .contacts .map_wrap {
-        width: 400px;
-        height: 350px;
-    }
+    }    
+
     .contacts_info {
-        width: calc(100% - 425px);
+        margin-left: 20px;
+        width: 100%;
+        clip-path: none;
     }
-    .contacts_item-phone {
-        font-size: 21px;
-        line-height: 26px;
-    }
-    .socials {
-        margin-top: 25px;
-    }
-    .socials_text {
-        margin-bottom: 15px;
-    }
-    footer .menu {
-        max-width: 520px;
+    .contacts::before {
+        left: -270px;
     }
 
 

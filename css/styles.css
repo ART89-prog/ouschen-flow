@@ -449,12 +449,22 @@ header .menu .item>a {
     cursor: pointer;
 }
 
-header .menu .item:last-child>a {
-    margin-right: 0;
+header .menu .item a:after {
+    background-color: #fff;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out; 
 }
-
-header .menu .item:hover>a {
-    color: var(--text_color2);
+header .menu .item a:hover:after,
+header .menu .item a:focus:after {
+    width: 100%;
+}
+header .menu .item:last-child a {
+    margin-right: 0;
 }
 .header_top {
     display: flex;
@@ -502,6 +512,10 @@ header .menu .item:hover>a {
     line-height: 130%;
     text-transform: uppercase;
     color: #FFFFFF;
+    transition: all .4s;
+}
+.header_callback button:hover {
+    background: #00AFE4;
 }
 .header_info-title {
     font-family: 'Gilroy';
@@ -566,8 +580,13 @@ header .menu .item:hover>a {
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    z-index: 3;
+    position: relative;
+    transition: all .4s;
 }
-
+.btn:hover {
+    background: #0891C6;
+}
 
 
 
@@ -989,8 +1008,13 @@ header .menu .item:hover>a {
     font-weight: 500;
     font-size: 17px;
     line-height: 130%;
-    color: #81CFEA;
+    color: #fff;
     padding: 0 30px;
+    transition: all .4s;
+}
+.request form .line .field input:hover,
+.request form .line .field input:focus {
+    border: 2px solid #fff;
 }
 input::-webkit-input-placeholder {
     font-family: 'Inter';
@@ -1053,7 +1077,7 @@ input:-ms-input-placeholder {
 .nice-select.open, 
 .nice-select:focus,
 .nice-select:hover {
-    border-color: rgba(39, 24, 80, .1);
+    border: 2px solid #fff;
 }
 .nice-select:after {
     content: '';
@@ -1098,6 +1122,10 @@ input:-ms-input-placeholder {
     font-size: 14px;
     line-height: 130%;
     color: #7FD7F1;
+    transition: all .4s;
+}
+.form_politic:hover a {
+    color: #fff;
 }
 .form_bottom button {
     padding: 15px 25px;
@@ -1107,8 +1135,13 @@ input:-ms-input-placeholder {
     font-size: 17px;
     line-height: 130%;
     text-transform: uppercase;
-    color: #FFFFFF;    
+    color: #FFFFFF;  
+    transition: all .4s;  
 }
+.form_bottom button:hover {
+    background: #1F366E;
+}
+
 
 
 
@@ -1130,6 +1163,7 @@ input:-ms-input-placeholder {
 }
 .contacts_wrap {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .contacts_info {
@@ -1161,6 +1195,7 @@ input:-ms-input-placeholder {
     color: #FFFFFF;  
     margin-bottom: 15px; 
     display: block;
+    white-space: nowrap;
 }
 .contacts_item button {
     width: 206px;
@@ -1171,7 +1206,11 @@ input:-ms-input-placeholder {
     font-size: 17px;
     line-height: 52px;
     text-transform: uppercase;
-    color: #FFFFFF;  
+    color: #FFFFFF; 
+    transition: all .4s; 
+}
+.contacts_item button:hover {
+    background: #00AFE4;
 }
 .contacts_item {
     margin-bottom: 25px;
@@ -1201,9 +1240,19 @@ input:-ms-input-placeholder {
     align-items: center;
 }
 .contacts_item-soc a {
-    display: block;
     text-align: center;
     margin-right: 10px;
+    background: #00AFE4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+}
+.contacts_item-soc a:hover {
+    background: #0891C6;
 }
 .map_wrap {
     position: relative;
@@ -1242,6 +1291,10 @@ footer a {
     font-size: 17px;
     line-height: 130%;
     color: #271850;
+    transition: all .4s;
+}
+footer a:hover {
+    color: #00AFE4;
 }
 .footer_personal {
     margin: 0 10px;

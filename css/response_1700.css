@@ -1,0 +1,22 @@
+@media print, (max-width: 1700px) {
+
+    .contacts_info {
+        padding: 70px 0 70px;
+        width: 100%;
+    }
+    .contacts::before {
+        left: -257px;
+    }
+    .map_wrap {
+        position: relative;
+        width: 100%;
+        max-width: 1050px;
+        height: 720px;
+        transform: translateZ(0);
+        margin-left: calc(50% - 590px);
+        z-index: 1;
+    }
+
+
+
+}

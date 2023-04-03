@@ -1,30 +1,5 @@
 @media print, (max-width: 1300px) {
 
-    .header_logo {
-        margin-right: 30px;
-    }
-    header .menu .item>a {
-        margin-right: 25px;
-    }
-    .slider .slick-arrow.prev {
-        left: 40px;
-    }
-    .slider .slick-arrow.next {
-        right: 40px;
-    }
-    .header_top .cont {
-        flex-direction: column;
-    }
-    .header_top-left {
-        margin-bottom: 10px;
-    }
-    .tabs button {
-        font-size: 15px;
-    }
-    footer .menu {
-        margin-right: 12px;
-        margin-left: 12px;
-    }
 
 
 
