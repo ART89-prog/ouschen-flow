@@ -170,7 +170,7 @@ input[type=number] {
     --font_size_title: 33px;
     --font_family: 'Inter', sans-serif;
     --font_family2: 'Gilroy', sans-serif;
-    ;
+    --bg: #F8F8F8;
 }
 
 ::selection {
@@ -593,6 +593,9 @@ header .menu .item:last-child a {
 
 .personal {
     background: url(../images/personal_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .block {
     padding: 60px 0;
@@ -664,7 +667,7 @@ header .menu .item:last-child a {
     display: block;
 }
 .personal_item:hover .personal_item-img {
-    height: 148px;
+    height: 142px;
 }
 .personal_item-info {
     padding: 20px 70px 20px 20px;
@@ -682,11 +685,13 @@ header .menu .item:last-child a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.personal {
+    padding-bottom: 120px;
+}
 
 
 
 .callback {
-    margin: 60px 0;
     padding: 185px 0 195px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -717,7 +722,6 @@ header .menu .item:last-child a {
 
 
 .privilege {
-    margin-bottom: 50px;
     padding: 110px 0 128px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -771,6 +775,9 @@ header .menu .item:last-child a {
 
 .advantages {
     background: url(../images/advantages_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .advantages_items {
     display: flex;
@@ -859,6 +866,9 @@ header .menu .item:last-child a {
 
 .steps {
     background: url(../images/steps_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .steps_items {
     display: flex;
@@ -895,6 +905,7 @@ header .menu .item:last-child a {
 }
 .steps_item {    
     position: relative;  
+    transition: all .4s;
 }
 .steps_item-title {
     font-family: var(--font_family);
@@ -914,6 +925,9 @@ header .menu .item:last-child a {
 .steps_item-btn {
     text-align: center;
     display: none;
+}
+.steps_item-bottom {
+    height: 52px;
 }
 .steps_item:hover .steps_item-bottom {
     display: none;
