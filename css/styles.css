@@ -625,11 +625,12 @@ header .menu .item:last-child a {
 .personal_items > * {
     width: calc(100%/3 - 20px);
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: -32px;
     text-decoration: none;
 }
 .personal_item-img {
     height: 195px;
+    transition: all .5s;
 }
 .personal_item-img img {
     width: 100%;
@@ -658,14 +659,48 @@ header .menu .item:last-child a {
     font-size: 24px;
     line-height: 130%;
      color: #00AFE4;
-     margin-bottom: 20px;
 }
+
+.personal_item-bottom {
+    height: 52px;
+    visibility: hidden;
+}
+.personal_item:hover .personal_item-bottom {
+    display: none;
+}
+.personal_item:hover .personal_item-btn  {
+    display: block;
+}
+
 .personal_item-btn {
     display: none;
+    text-align: center;
+    height: 52px;
+    opacity: 0;
 }
 .personal_item:hover .personal_item-btn {
     display: block;
+    opacity: 1;
+    animation: fadeInFromNone .5s ease-in-out;
 }
+@keyframes fadeInFromNone {
+    0% {
+      display: none;
+      opacity: 0;
+    }
+  
+    1% {
+      display: block;
+      opacity: 0;
+    }
+  
+    100% {
+      display: block;
+      opacity: 1;
+    }
+}
+
+
 .personal_item:hover .personal_item-img {
     height: 142px;
 }
@@ -922,10 +957,7 @@ header .menu .item:last-child a {
     line-height: 130%;
     color: var(--text_color);
 }
-.steps_item-btn {
-    text-align: center;
-    display: none;
-}
+
 .steps_item-bottom {
     height: 52px;
 }
@@ -935,6 +967,34 @@ header .menu .item:last-child a {
 .steps_item:hover .steps_item-btn  {
     display: block;
 }
+
+.steps_item-btn {
+    display: none;
+    text-align: center;
+    opacity: 0;
+}
+.steps_item:hover .steps_item-btn {
+    display: block;
+    opacity: 1;
+    animation: fadeInFromNone2 .5s ease-in-out;
+}
+@keyframes fadeInFromNone2 {
+    0% {
+      display: none;
+      opacity: 0;
+    }
+  
+    1% {
+      display: block;
+      opacity: 0;
+    }
+  
+    100% {
+      display: block;
+      opacity: 1;
+    }
+}
+
 .steps_item-number {
     position: absolute;
     top: -53px;
@@ -950,6 +1010,7 @@ header .menu .item:last-child a {
     border-radius: 50%;
     background: var(--text_color);
     z-index: 3;
+    transition: all .4s;
 }
 .steps_item-bottom img {
     width: 100%;
